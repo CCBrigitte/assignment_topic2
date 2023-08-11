@@ -1,5 +1,4 @@
 mkdir dir2
 touch file4 file5
-mv *.txt dir2/
-git add dir2/*.txt
+git mv dir2/
 git commit -m "Moved text files to dir2"
